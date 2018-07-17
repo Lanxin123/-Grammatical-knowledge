@@ -1,0 +1,1 @@
+详见：https://msdn.microsoft.com/zh-cn/library/s16xw1a8.aspx#order_of_construction
