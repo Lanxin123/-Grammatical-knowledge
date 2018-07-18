@@ -15,3 +15,4 @@ int main()
 	std::cout << s.a << "\n";//输出：1
 }
 详见 https://zh.cppreference.com/w/cpp/language/bit_field
+https://msdn.microsoft.com/zh-cn/library/ewwyfdbe.aspx
