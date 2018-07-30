@@ -9,7 +9,7 @@
 class A
 {
 public:
-	const static int a = 0;
+	const static int a = 0;//float和double以及string都不可以
 	static int b;
 	const int c = 0;
 };

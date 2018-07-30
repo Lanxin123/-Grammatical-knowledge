@@ -35,7 +35,7 @@ public:
  							//或者通过构造函数初始化列表初始化
  							//可同时，且初始化列表会覆盖掉b的值
 	static int m_a1;
-	const static int a;		//const static可以在类内初始化也可以在类外初始化 
+	const static int a;		//const static可以在类内初始化(类型不可为string float double)也可以在类外初始化 
 						    //但是无法使用构造函数初始化列表初始化
 						    //不可同时 同时会出现重定义
 };
