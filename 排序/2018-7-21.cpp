@@ -165,7 +165,7 @@ void quicksort(int arr[], int l, int r)
 int partition(int arr[], int l, int r)
 {
 	int k = l, pivot = arr[r];
-	for (int i = l;i<r;++i)
+	for (int i = l;i<r;++i
 	{
 		if (arr[i]<pivot)
 		{
