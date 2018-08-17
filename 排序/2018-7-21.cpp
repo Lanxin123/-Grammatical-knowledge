@@ -96,9 +96,7 @@ void  heapSortInt(int k[], int n)//这个函数实现建堆和排序交换后的
 		shift(k, i, n);
 	for (int j = n; j > 0; j--)
 	{
-		int temp = k[j];
-		k[j] = k[1];
-		k[1] = temp;
+		swap(k[1],k[j]);
 		shift(k, 1, j - 1); //对发生变化的第一个节点调整
 	}
 }
@@ -165,7 +163,7 @@ void quicksort(int arr[], int l, int r)
 int partition(int arr[], int l, int r)
 {
 	int k = l, pivot = arr[r];
-	for (int i = l;i<r;++i
+	for (int i = l;i<r;++i)
 	{
 		if (arr[i]<pivot)
 		{
