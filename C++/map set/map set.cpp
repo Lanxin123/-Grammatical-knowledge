@@ -24,7 +24,7 @@ pair和set结合
 以pair->first进行排序
 #include "stdafx.h"
 #include <string>  
-#include<iostream>
+#include <iostream>
 #include <set>
 #include <utility>
 using namespace std;
@@ -50,4 +50,4 @@ int main()
 //1 1
 //2 2
 //33
-详见：https://blog.csdn.net/xy913741894/article/details/55252743
+https://blog.csdn.net/xy913741894/article/details/55252743

@@ -13,3 +13,4 @@ char *strcpy(char *strDes, const char *string)
 		*(strDes++) = *(string++);
 	*strDes = '\0';//一定注意最后结束时一定要加一个\0结尾；
 	return address;//返回保存的strDes首地址;
+}

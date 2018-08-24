@@ -2,4 +2,4 @@
 这依赖于A的类型是否是POD（Plain old data）类型，
 或者它是否是包含POD成员、使用编译器生成默认构造函数的类。
 
-详见https://blog.csdn.net/xiajun07061225/article/details/8796257
+https://blog.csdn.net/xiajun07061225/article/details/8796257

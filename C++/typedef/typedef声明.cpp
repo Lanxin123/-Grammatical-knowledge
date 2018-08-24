@@ -36,4 +36,4 @@ typedef struct Node {
     struct listNode* next; // 声明名为 listNode 的新的（不完整）结构体类型
 } listNode; // 错误：与先前声明的结构体名冲突
 
-详见：https://zh.cppreference.com/w/cpp/language/typedef
+https://zh.cppreference.com/w/cpp/language/typedef

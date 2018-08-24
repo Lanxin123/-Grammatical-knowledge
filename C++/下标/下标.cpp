@@ -45,4 +45,4 @@ int main() {
 }
 
 
-详见：https://msdn.microsoft.com/zh-cn/library/1bhdy722.aspx
+https://msdn.microsoft.com/zh-cn/library/1bhdy722.aspx

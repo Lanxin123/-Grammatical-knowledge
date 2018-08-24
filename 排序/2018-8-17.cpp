@@ -136,6 +136,8 @@ bool MergeSort(int a[], int n)
 	return true;
 }
 
+#define leftChild(i) (2*(i)+1)
+
 void percDown(int *arr, int i, int N)
 {
 	int tmp, child;

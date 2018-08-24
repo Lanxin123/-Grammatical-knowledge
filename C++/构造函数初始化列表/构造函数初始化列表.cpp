@@ -53,6 +53,7 @@ int main(int argc ,char **argv)
     A b(pp);
     b.print_val();
 }
+
 //4. 如果类存在继承关系，派生类必须在其初始化列表中调用基类的构造函数
 #include <iostream>
 using namespace std;
